@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--css-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+
+        <!--title-->
+        <title>AlphaDevs Login</title>
+
+        <!--favicon-->
+        <link rel="shortcut icon" href="images/favicon.ico">
+
+        <!--javascript-->
+        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+        <script src="js/regex.js"></script>
+        </head>
+    <body>
+        
+        <div class="login-box">
+            
+            <!--image owl-->
+           <!-- <img src="owl.png"  id="img-head" onclick="homepage()"> -->
+            
+            <!--eye balls-->
+            <section class="emoji">
+                <div class="eyes">
+                    <div class="eye"></div>
+                    <div class="eye"></div>
+                </div>
+            </section>
+            <!--/end div eye balls-->
+            
+            <div class="textbox">
+                <i class='fas'>&#xf2bd;</i>
+                <input type="text" id="user" placeholder="Username" name="" value="" required>
+                <label id="lb">Invalid username</label>
+            </div>
+            
+            <div class="textbox">
+                <i class='fas'>&#xf023;</i>
+                <input  id="pass" type="password" placeholder="Password" name="" value="" onfocus="must()">
+                <label id="lb1" > oops! incorrect password</label>
+            </div>
+            
+            <input  class="btn" type="button" onclick="  validate1(); upper_case()"  value="login">
+
+            <h3 id="reg">click here to register</h3>
+            <h3 id="fp">forgot password?</h3>
+        
+        </img>
+    </body>
+</html>
+
